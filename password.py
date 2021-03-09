@@ -4,8 +4,8 @@ enter = input('Введите пароль: ')
 try:
     result = 10/len(enter)
     result1 = int(enter)
-    print('Требования к паролю соблюдены')  
+    print('Ваш пароль состоит толькоиз цифр')  
 except ZeroDivisionError:    
     print('Вы ввели пустой пароль')
 except ValueError:
-    print('Ваш пароль состоит только из цифр')
+    print('Требование к паролю соблюдены')
